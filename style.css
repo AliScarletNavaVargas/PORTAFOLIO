@@ -1,0 +1,47 @@
+
+body, html{
+    margin: 0;
+    padding: 0;
+    /*overflow: hidden;*/
+    height: 600vh;
+}
+.contenedorParallax{
+    position: fixed;
+    width: 300vw;
+    height: 100vh;
+    display: flex;
+}
+
+.imagen {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.fondo1 {
+    background-image: url('images/intereses.jpg');
+    z-index: 1;
+}
+
+.fondo2 {
+    background-image: url('images/experiencia.jpg');
+    z-index: 2;
+}
+
+.fondo3 {
+    background-image: url('images/contenido.jpg');
+    z-index: 3;
+}
+
+.circulo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(112, 96, 113);
+    border-radius: 50%;
+    transform-origin: 200x center;
+    z-index: 10;
+}
